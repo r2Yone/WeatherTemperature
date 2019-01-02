@@ -42,7 +42,7 @@ class App extends Component {
             </LocationList>
           </Col>    
           <Col xs={12} md={6} className="cols">
-            <Paper zDepth={4}>
+            <Paper zDepth={4} elevation={4}>
               <div className="details">
               <ForecastExtended></ForecastExtended>
               </div>
